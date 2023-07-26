@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="seleniumModule3.Assignment3">
+        <methods>
+          <include name="loginTest"/>
+          <include name="launchbrowser"/>
+          <include name="terminatebrowser"/>
+        </methods>
+      </class> <!-- seleniumModule3.Assignment3 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
